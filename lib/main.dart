@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
             title: const Text('My App'),
           ),
           body: Center(
-            child: Container(
+            child: currentIndex == 0? Container(
               width: double.infinity,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -59,7 +59,8 @@ class _MyAppState extends State<MyApp> {
                   ),
                 ],
               ),
-            ),
+            ):
+            Image.asset("images/background.jpg"),
           ),
           bottomNavigationBar: BottomNavigationBar(
             items: const [
