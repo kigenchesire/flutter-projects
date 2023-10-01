@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:whatsappclone/colors.dart';
+import 'package:whatsappclone/widgets/colors.dart';
 import 'package:whatsappclone/widgets/contact_list.dart';
 
 class MobileScreenLayout extends StatelessWidget {
@@ -56,7 +56,12 @@ class MobileScreenLayout extends StatelessWidget {
                 ]),
           ),
           body: const ContactList(),
+          floatingActionButton: FloatingActionButton(
+            onPressed: (){},
+            backgroundColor: tabColor,
+            child: const Icon(Icons.comment, color: Colors.white,),
+            
 
-        ));
+    )));
   }
 }
