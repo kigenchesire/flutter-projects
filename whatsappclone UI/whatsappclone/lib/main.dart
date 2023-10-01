@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:whatsappclone/widgets/colors.dart';
+import 'package:whatsappclone/colors.dart';
 import 'package:whatsappclone/responsive/responsivelayout.dart';
 import 'package:whatsappclone/screens/mobile_screen.dart';
 import 'package:whatsappclone/screens/web_screen.dart';
